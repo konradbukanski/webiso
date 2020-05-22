@@ -261,11 +261,17 @@ body .header .header__content h1 {
 
 @media screen and (min-width: 992px) {
   body .header .header__content h1 {
-    font-size: 46px;
+    font-size: 36px;
   }
 }
 
 @media screen and (min-width: 1400px) {
+  body .header .header__content h1 {
+    font-size: 62px;
+  }
+}
+
+@media screen and (min-width: 1900px) {
   body .header .header__content h1 {
     font-size: 72px;
   }

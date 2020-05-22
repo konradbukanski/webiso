@@ -7,6 +7,7 @@ $lightgray: #ebebeb;
 $smallDevices: 768px;
 $mediumDevices: 992px;
 $largeDevices: 1400px;
+$extraLargeDevices: 1900px;
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
 
@@ -192,9 +193,12 @@ body{
             h1{
                 font-size: 38px;
                 @media screen and (min-width: $mediumDevices) {
-                    font-size: 46px;
+                    font-size: 36px;
                 }
                 @media screen and (min-width: $largeDevices) {
+                    font-size: 62px;
+                }
+                @media screen and (min-width: $extraLargeDevices) {
                     font-size: 72px;
                 }
             } 
