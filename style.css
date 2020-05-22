@@ -120,6 +120,7 @@ body .header .header__nav .header__nav--logo {
 body .header .header__nav nav {
   display: none;
   left: 0%;
+  top: 0;
   width: 100%;
   position: absolute;
   font-size: 17px;
