@@ -64,7 +64,7 @@ body .header::after {
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1400px) {
   body .header::after {
     height: 53%;
   }
@@ -111,7 +111,7 @@ body .header .header__nav .header__nav--logo {
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1400px) {
   body .header .header__nav .header__nav--logo {
     padding: 30px 70px;
   }
@@ -259,7 +259,7 @@ body .header .header__content h1 {
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1400px) {
   body .header .header__content h1 {
     font-size: 72px;
   }
@@ -301,7 +301,7 @@ body .header span {
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1400px) {
   body .header span {
     font-size: 22px;
   }
@@ -371,7 +371,7 @@ body main .about__items .about__item {
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1400px) {
   body main .about__items .about__item {
     width: 30%;
     margin: 30px 0;
