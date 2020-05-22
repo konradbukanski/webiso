@@ -40,7 +40,7 @@
             <div class="about__items">
                 <div class="about__item">
                     <div class="about__item--image">
-                        <img src="images/ikona.svg" alt="ikona">
+                        <img src="images/ikona.svg" alt="">
                     </div> 
                     <div  class="about__item--text">
                         <h3>The seasoned veterans</h3>
@@ -50,7 +50,7 @@
                 </div>
                 <div class="about__item">
                     <div class="about__item--image">
-                        <img src="images/ikona.svg" alt="ikona">
+                        <img src="images/ikona.svg" alt="">
                     </div> 
                     <div  class="about__item--text">
                         <h3>We take prid in our meet maniacts</h3>
@@ -60,7 +60,7 @@
                 </div>
                 <div class="about__item">
                     <div class="about__item--image">
-                        <img src="images/ikona.svg" alt="ikona">
+                        <img src="images/ikona.svg" alt="">
                     </div> 
                     <div  class="about__item--text">
                         <h3>The authority on masters of the experienced purveyors</h3>
@@ -70,7 +70,7 @@
                 </div>
                 <div class="about__item">
                     <div class="about__item--image">
-                        <img src="images/ikona.svg" alt="ikona">
+                        <img src="images/ikona.svg" alt="">
                     </div> 
                     <div  class="about__item--text">
                         <h3>For funs</h3>
@@ -80,7 +80,7 @@
                 </div>
                 <div class="about__item">
                     <div class="about__item--image">
-                        <img src="images/ikona.svg" alt="ikona">
+                        <img src="images/ikona.svg" alt="">
                     </div> 
                     <div  class="about__item--text">
                         <h3>The outstanding makers</h3>
@@ -90,7 +90,7 @@
                 </div>
                 <div class="about__item">
                     <div class="about__item--image">
-                        <img src="images/ikona.svg" alt="ikona">
+                        <img src="images/ikona.svg" alt="">
                     </div> 
                     <div class="about__item--text">
                         <h3>The number one source for everything</h3>
@@ -116,9 +116,9 @@
         <div class="footer__column">
             <span>Got questions? Ask us on our channels</span>
             <div>
-                <img src="images/facebook.svg" alt="facebook">
-                <img src="images/youtube.svg" alt="youtube">
-                <img src="images/instagram.svg" alt="instagram">
+                <a href="#"><img src="images/facebook.svg" alt="facebook"></a>
+                <a href="#"><img src="images/youtube.svg" alt="youtube"></a>
+                <a href="#"><img src="images/instagram.svg" alt="instagram"></a>
             </div>
         </div>
         <div class="footer__column">
@@ -129,6 +129,7 @@
     <script>
 
         document.querySelector('.header__ham').addEventListener("click", () => {
+            console.log("click")
             document.querySelector('.header__nav nav').style.display  = document.querySelector('.header__nav nav').style.display === 'block' ? '' : 'block';
         })
 
