@@ -245,6 +245,12 @@ body .header .header__content {
     text-align: left;
     left: 10%;
     width: 46%;
+    margin: 365px 0 30px 0;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  body .header .header__content {
     margin: 450px 0 30px 0;
   }
 }
