@@ -123,5 +123,13 @@
             <span>Terms & Conditions</span>
         </div>
     </footer>
+    <script>
+
+        document.querySelector('.header__ham').addEventListener("click", () => {
+            console.log("click")
+            document.querySelector('.header__nav nav').style.display  = document.querySelector('.header__nav nav').style.display === 'block' ? '' : 'block';
+        })
+
+    </script>
 </body>
 </html>
